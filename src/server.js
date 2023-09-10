@@ -33,6 +33,8 @@ server.use((err, req, res, next) => {
   res.status(500).json("Internal Server Error");
 });
 
+// const { guardarDietas } = require('')
+
 
 sequelize
   .sync({ force: true })
